@@ -12,7 +12,7 @@ export default function Header() {
      <h3>Pizza Delivery</h3>
      <h1>Maestro Pizzini</h1>
      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aliquid corporis  <br /> veritatis illo maxime obcaecati. Repellendus quas quae sapiente debitis.</p>
-     <button className='btn'>Delivery Now</button>
+     <button className='btn btn_main'>Delivery Now</button>
      </div> 
      </div>
    </div>
