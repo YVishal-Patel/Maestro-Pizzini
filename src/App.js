@@ -4,7 +4,8 @@ import './App.css'
 import About from './components/About';
 import Shop from './components/Shop';
 import Menu from './components/Menu';
-
+import Client from './components/Client';
+import Prices from './components/Prices';
 
 function App(){
   return( <>
@@ -12,6 +13,8 @@ function App(){
   <About />
   <Shop /> 
 <Menu /> 
+  <Client />
+  <Prices />
 </>
   )
 }

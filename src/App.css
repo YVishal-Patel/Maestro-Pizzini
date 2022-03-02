@@ -75,7 +75,7 @@ body{
 text-decoration: none;
 color: #fff;
 padding: 0 20px;
-font-size: 25px;
+font-size: 21px;
 font-weight: 700;
 text-transform: uppercase;
 cursor: pointer;
@@ -115,6 +115,12 @@ cursor: pointer;
 }
 .col-6{
     width: 50%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
 }
 .about h3{
     font-size: 32px;
@@ -181,17 +187,50 @@ margin: 0 auto;
 .shop_btn:hover{
     opacity: 0.8;
 }
-.menu{
-padding:80px 0px;
-}
-.menu .row{
+/*-------------------Client ------------------------  */
+.clients{
     width: 100%;
-    display: flex;
-    justify-content: space-around;
+    padding: 100px 0;
+    background-image: url(/public/Images/bg.jpg);
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
-.col-6{
-    width: 50%;
-}
-.col-6 h3, h1,p{
 
+.client{
+    text-align: center;
+}
+.client h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+.client p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.prices{
+    width: 100%;
+    padding: 80px 0;
+}
+.price{
+    padding: 20px;
+}
+.price_img{
+width: 100%;
+}
+.price_img img{
+    max-width: 250px;
+    margin-left: 50px;
+}
+.price_heading{
+    text-align: center;
+    /* margin-left: 110px; */
+}
+.price_discription{
+    text-align: center;
+    /* margin-left: 100px; */
+    margin-top: 6px;
 }
